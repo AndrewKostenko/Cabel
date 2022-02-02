@@ -1,0 +1,127 @@
+.footer {
+	background-color: black;
+	padding: 30px 0;
+	margin-top: 120px;
+
+	@media (max-width: 550px) {
+		margin-top: 131px;
+		padding: 43px 0;
+	}
+	// .footer_inner
+	&_inner {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-gap: 30px;
+		@media (max-width: 768px) {
+			grid-template-columns: repeat(2, 1fr) auto;
+		}
+
+		@media (max-width: 550px) {
+			grid-template-columns: 1fr;
+		}
+	}
+	// .footer_column
+	&_column {
+		flex: 1 1 auto;
+	}
+	// .footer_list
+	&_list {
+		a {
+			line-height: 22 / 16 * 100%;
+			display: block;
+			padding-bottom: 8px;
+			color: #9c9c9c;
+			transition: 300ms;
+			@media (any-hover: hover) {
+				&:hover {
+					color: white;
+				}
+			}
+			@media (max-width: 550px) {
+				color: white;
+			}
+		}
+	}
+	// .footer_content
+	&_content {
+		a {
+			line-height: 22 / 16 * 100%;
+			display: block;
+			padding-bottom: 3px;
+			color: #9c9c9c;
+
+			transition: 300ms;
+			@media (any-hover: hover) {
+				&:hover {
+					color: white;
+				}
+			}
+
+			@media (max-width: 550px) {
+				color: white;
+			}
+		}
+		li {
+			line-height: 22 / 16 * 100%;
+			display: block;
+			color: #9c9c9c;
+			padding-bottom: 20px;
+
+			&:last-child {
+				padding-bottom: 10px;
+			}
+
+			@media (max-width: 550px) {
+				color: white;
+			}
+		}
+	}
+	// .footer_items
+	&_items {
+		display: flex;
+		align-items: center;
+		grid-gap: 20px;
+		@media (max-width: 768px) {
+			flex-direction: column;
+			align-items: end;
+		}
+
+		@media (max-width: 550px) {
+			align-items: start;
+			flex-direction: row;
+		}
+	}
+	// .footer_item
+	&_item {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+		width: 50px;
+		height: 50px;
+		border: 1px solid #4f4f4f;
+		border-radius: 8px;
+
+		cursor: pointer;
+		transition: 300ms;
+		@media (any-hover: hover) {
+			&:hover {
+				border: 1px solid #9c9c9c;
+			}
+		}
+	}
+	// .footer_bottom
+	&_bottom {
+		margin-top: 30px;
+		padding-top: 30px;
+		border-top: 1px solid #4f4f4f;
+
+		line-height: 22 / 16 * 100%;
+		color: white;
+
+		@media (max-width: 550px) {
+			margin-top: 38px;
+			padding-top: 40px;
+		}
+	}
+}

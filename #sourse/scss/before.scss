@@ -1,0 +1,47 @@
+//ШРИФТ=====================================================================
+
+$font-family: Pragmatica;
+$font-size: 16px;
+
+//ПІДКЛЮЧЕНІ ШРИФТИ=====================================================================
+// GOOGLE FONTS (&display=swap)=====================================================================
+@font-face {
+	font-family: "Pragmatica";
+	src: url("../fonts/PragmaticaSlab-Book.eot");
+	src: local("☺"), url("../fonts/PragmaticaSlab-Book.woff") format("woff"),
+		url("../fonts/PragmaticaSlab-Book.ttf") format("truetype"), url("../fonts/PragmaticaSlab-Book.svg") format("svg");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Pragmatica";
+	src: url("../fonts/PragmaticaSlab-Bold.eot");
+	src: local("☺"), url("../fonts/PragmaticaSlab-Bold.woff") format("woff"),
+		url("../fonts/PragmaticaSlab-Bold.ttf") format("truetype"), url("../fonts/PragmaticaSlab-Bold.svg") format("svg");
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Pragmatica";
+	src: url("../fonts/PragmaticaSlab-Light.eot");
+	src: local("☺"), url("../fonts/PragmaticaSlab-Light.woff") format("woff"),
+		url("../fonts/PragmaticaSlab-Light.ttf") format("truetype"),
+		url("../fonts/PragmaticaSlab-Light.svg") format("svg");
+	font-weight: 300;
+	font-style: normal;
+}
+
+// /GOOGLE FONTS=====================================================================
+
+//ПІДКЛЮЧЕНІ ШРИФТИ=====================================================================
+
+//ШРИФТ=====================================================================
+//CONTAINER=====================================================================
+$container-width: 960px;
+$container-padding: 20px;
+//CONTAINER=====================================================================
+//VARIABLES=====================================================================
+$dark: #333333;
+$grey: #80858c;
+$gradient: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+//VARIABLES=====================================================================
